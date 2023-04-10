@@ -6,3 +6,12 @@
   --main-font: 'Roboto', sans-serif;
   --main-color: red;
 }
+
+body {
+  background-color: #EDE7E3;
+  color: #16697A;
+}
+
+p, span, h1, h2 {
+  font-family: var(--main-font);
+}

@@ -1,5 +1,5 @@
 <div class="card --{{ task.state }}">
   <p><b>{{ task.title }}</b></p>
   <span>{{ task.info }}</span>
-  <p><b>State:</b> {{ task.state }}</p>
+  <p><b>State:</b> {{ task.state | titlecase }}</p>
 </div>

@@ -1,3 +1,13 @@
+.container {
+  padding: 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-family: var(--main-font);
+}
+
 section {
   display: flex;
   justify-content: space-around;
@@ -10,9 +20,13 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
-  background-color: #5b8e7d0c;
-  border: 1px solid #5b8e7d41;
-  border-radius: 20px;
+  background-color: #82c0cc4d;
+  border: 1px solid #16697A;
+  border-radius: 10px;
   min-width: 15rem;
+
+  p {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
 }
