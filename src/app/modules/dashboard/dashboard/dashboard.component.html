@@ -1,0 +1,39 @@
+<h1>Tasks</h1>
+
+<section>
+  <div class="card-list">
+    <p>Defined</p>
+    <div *ngFor="let task of tasks">
+      <div *ngIf="task.state === 'defined'">
+        <app-card [task]="task"></app-card>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-list">
+    <p>In Progress</p>
+    <div *ngFor="let task of tasks">
+      <div *ngIf="task.state === 'in-progress'">
+        <app-card [task]="task"></app-card>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-list">
+    <p>Testing</p>
+    <div *ngFor="let task of tasks">
+      <div *ngIf="task.state === 'testing'">
+        <app-card [task]="task"></app-card>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-list">
+    <p>Completed</p>
+    <div *ngFor="let task of tasks">
+      <div *ngIf="task.state === 'completed'">
+        <app-card [task]="task"></app-card>
+      </div>
+    </div>
+  </div>
+</section>

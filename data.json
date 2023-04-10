@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Create Login Page",
+      "info": "Develop a user login page that accepts email and password, verifies user credentials, and grants access to authorized pages.",
+      "state": "Defined",
+      "dev_assigned": "John"
+    },
+    {
+      "id": 2,
+      "title": "Implement User Dashboard",
+      "info": "Develop a user dashboard that displays user profile, account settings, and other relevant information in a user-friendly interface.",
+      "state": "In Progress",
+      "dev_assigned": "Emily"
+    },
+    {
+      "id": 3,
+      "title": "Integrate Payment Gateway",
+      "info": "Integrate a payment gateway into the platform that enables users to make secure online payments for products or services.",
+      "state": "Testing",
+      "dev_assigned": "Alex"
+    },
+    {
+      "id": 4,
+      "title": "Develop User Analytics",
+      "info": "Develop a user analytics dashboard that tracks user behavior and provides insights into user engagement, retention, and other relevant metrics.",
+      "state": "Defined",
+      "dev_assigned": "Sarah"
+    },
+    {
+      "id": 5,
+      "title": "Implement Social Sharing",
+      "info": "Implement social sharing functionality that allows users to share platform content on social media platforms like Facebook, Twitter, and Instagram.",
+      "state": "Completed",
+      "dev_assigned": "Bob"
+    },
+    {
+      "id": 6,
+      "title": "Improve Site Speed",
+      "info": "Optimize platform performance to improve site speed and reduce page load times.",
+      "state": "In Progress",
+      "dev_assigned": "David"
+    }
+  ]
+}

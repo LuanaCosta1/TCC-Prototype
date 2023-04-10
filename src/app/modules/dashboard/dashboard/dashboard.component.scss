@@ -1,0 +1,18 @@
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #5b8e7d0c;
+  border: 1px solid #5b8e7d41;
+  border-radius: 20px;
+  min-width: 15rem;
+}

@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  font-family: var(--main-font);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  width: 175px;
+}
+
+.--completed {
+  background-color: #8CB369;
+  color: white;
+}
+.--in-progress {
+  background-color: #F4A259;
+}
+.--testing {
+  background-color: #F4E285;
+}
+.--defined {
+  background-color: #BC4B51;
+  color: white;
+}
